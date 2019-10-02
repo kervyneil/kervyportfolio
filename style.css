@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap');
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{    margin: 0;     padding: 0;     border: 0;     font-size: 100%;     font: inherit;     vertical-align: baseline;     -webkit-text-size-adjust: 100%;}
+
+.clear{clear: both; overflow: hidden;}
+body{background: #046e4f;font-family: 'Quicksand', sans-serif;font-size: 18px;}
+img{width: 100%;height: auto;}
+#main-box{padding: 50px;}
+
+.container{max-width: 1000px;margin: 0 auto;}
+#inner-box{display: flex;box-shadow: 0 0 15px #333;border-radius: 7px;overflow: hidden;}
+#inner-box .left-box{width: 30%;padding: 20px;background: #fff;}
+#inner-box .left-box {text-align: center;}
+#inner-box .left-box .prof-pic img{border-radius: 50%;width: 200px; height:200px;display: block; margin: 0 auto 30px;box-shadow: 0 0 7px #333}
+#inner-box .left-box .prof-name h1{font-weight: 600}
+#inner-box .left-box .prof-name h2{font-size: 15px}
+
+
+.sidemenu{}
+.menu_sect{padding: 50px 10px}
+.sidemenu li{list-style-type: none;margin: 0 0 10px;}
+.sidemenu li a{text-decoration: none;color: #000;font-size: 15px;position: relative;}
+.sidemenu li a::after{content:'';position: absolute;width: 0;height: 0; color:#2c98f0;bottom: 0;left: 0;right: 0;}
+.sidemenu li:hover a:after{content:'';position: absolute;width:100%;height:1px;background: #2c98f0}
